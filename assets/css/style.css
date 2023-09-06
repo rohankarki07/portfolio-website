@@ -419,7 +419,7 @@ h3 {
 
 /* Skills  */
 .skill .skill-item {
-  flex: 0 0 50%; /* 33.33 since 3 skill*/
+  flex: 0 0 33.33%; /* 33.33 since 3 skill*/
   max-width: 50%;
 }
 .skill .skill-item .skill-item-inner {
