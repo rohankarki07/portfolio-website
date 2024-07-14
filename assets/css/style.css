@@ -309,6 +309,15 @@ h3 {
   font-size: var(--h3-font-size); /*setting the size of the icon */
 }
 
+.newweb {
+  display: flex;
+  flex-direction: column;
+}
+
+.webiste {
+  color: red;
+}
+
 /* scroll down  */
 .scroll-down {
   position: absolute;
@@ -483,7 +492,7 @@ h3 {
 
 /* Contact  */
 
-.contact-row{
+.contact-row {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -501,7 +510,7 @@ h3 {
   row-gap: 2rem;
 }
 
-.contact-data .contact-description a:hover{
+.contact-data .contact-description a:hover {
   color: var(--color-primary);
 }
 .contact-subtitle {
@@ -590,7 +599,7 @@ h3 {
   padding: 0 0.5rem;
 }
 
-.col{
+.col {
   resize: none;
 }
 
@@ -804,12 +813,12 @@ h3 {
     padding: 25px 20px;
   }
 
-  .project-item{
+  .project-item {
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .project-item .inner{
+  .project-item .inner {
     max-width: 380px;
     margin: 0 auto;
   }
